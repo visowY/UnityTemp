@@ -4,10 +4,10 @@
 ### 0.0.0
 * 确定第3方插件：
     * dotween  -- 动画插件
-    * newtonsoft.json  -- json 解析
-    * recyclyScrollView -- 循环列表
-    * UIExtends  -- UI扩展
-    * UnityRcs   -- RCS
+    * newtonsoft.json  -- json 解析(自带)
+    * FancyScrollView -- 循环列表  github:https://github.com/setchi/FancyScrollView
+    * UIExtends  -- UI扩展  自写
+    * UniRX   -- rx
     * Xlua-framewowrk -- lua
     * UniTask   -- task
     * Odin      -- 编辑器
