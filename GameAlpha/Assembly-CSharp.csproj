@@ -302,26 +302,11 @@
      <Reference Include="UnityEditor.UnityConnectModule">
      <HintPath>/Applications/Unity/Hub/Editor/2022.1.4f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.UnityConnectModule.dll</HintPath>
      </Reference>
-     <Reference Include="DemiLib">
-     <HintPath>/Users/yue.wang/UnityTemp/GameAlpha/Assets/Demigiant/DemiLib/Core/DemiLib.dll</HintPath>
-     </Reference>
-     <Reference Include="DOTween">
-     <HintPath>/Users/yue.wang/UnityTemp/GameAlpha/Assets/Demigiant/DOTween/DOTween.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
-     <HintPath>/Users/yue.wang/UnityTemp/GameAlpha/Library/PackageCache/com.unity.visualscripting@1.7.8/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
-     </Reference>
-     <Reference Include="ReportGeneratorMerged">
-     <HintPath>/Users/yue.wang/UnityTemp/GameAlpha/Library/PackageCache/com.unity.testtools.codecoverage@1.1.1/lib/ReportGenerator/ReportGeneratorMerged.dll</HintPath>
-     </Reference>
-     <Reference Include="Newtonsoft.Json">
-     <HintPath>/Users/yue.wang/UnityTemp/GameAlpha/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.0.2/Runtime/Newtonsoft.Json.dll</HintPath>
-     </Reference>
-     <Reference Include="DOTweenPro">
-     <HintPath>/Users/yue.wang/UnityTemp/GameAlpha/Assets/Demigiant/DOTweenPro/DOTweenPro.dll</HintPath>
-     </Reference>
      <Reference Include="Sirenix.Utilities.Editor">
      <HintPath>/Users/yue.wang/UnityTemp/GameAlpha/Assets/Plugins/Sirenix/Assemblies/Sirenix.Utilities.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="DemiLib">
+     <HintPath>/Users/yue.wang/UnityTemp/GameAlpha/Assets/Demigiant/DemiLib/Core/DemiLib.dll</HintPath>
      </Reference>
      <Reference Include="Sirenix.OdinInspector.Editor">
      <HintPath>/Users/yue.wang/UnityTemp/GameAlpha/Assets/Plugins/Sirenix/Assemblies/Sirenix.OdinInspector.Editor.dll</HintPath>
@@ -335,8 +320,23 @@
      <Reference Include="Sirenix.Utilities">
      <HintPath>/Users/yue.wang/UnityTemp/GameAlpha/Assets/Plugins/Sirenix/Assemblies/Sirenix.Utilities.dll</HintPath>
      </Reference>
+     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
+     <HintPath>/Users/yue.wang/UnityTemp/GameAlpha/Library/PackageCache/com.unity.visualscripting@1.7.8/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+     </Reference>
+     <Reference Include="DOTween">
+     <HintPath>/Users/yue.wang/UnityTemp/GameAlpha/Assets/Demigiant/DOTween/DOTween.dll</HintPath>
+     </Reference>
+     <Reference Include="ReportGeneratorMerged">
+     <HintPath>/Users/yue.wang/UnityTemp/GameAlpha/Library/PackageCache/com.unity.testtools.codecoverage@1.1.1/lib/ReportGenerator/ReportGeneratorMerged.dll</HintPath>
+     </Reference>
+     <Reference Include="Newtonsoft.Json">
+     <HintPath>/Users/yue.wang/UnityTemp/GameAlpha/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.0.2/Runtime/Newtonsoft.Json.dll</HintPath>
+     </Reference>
      <Reference Include="Sirenix.Serialization">
      <HintPath>/Users/yue.wang/UnityTemp/GameAlpha/Assets/Plugins/Sirenix/Assemblies/Sirenix.Serialization.dll</HintPath>
+     </Reference>
+     <Reference Include="DOTweenPro">
+     <HintPath>/Users/yue.wang/UnityTemp/GameAlpha/Assets/Demigiant/DOTweenPro/DOTweenPro.dll</HintPath>
      </Reference>
      <Reference Include="UnityEditor.iOS.Extensions.Xcode">
      <HintPath>/Applications/Unity/Hub/Editor/2022.1.4f1c1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
@@ -808,18 +808,6 @@
       <Project>{41063c0c-ba4d-998b-0d63-ee2463e76d99}</Project>
       <Name>FancyScrollView</Name>
     </ProjectReference>
-    <ProjectReference Include="UniRx.csproj">
-      <Project>{14299ced-2bde-3c00-0016-7a49c9c30116}</Project>
-      <Name>UniRx</Name>
-    </ProjectReference>
-    <ProjectReference Include="UniTask.TextMeshPro.csproj">
-      <Project>{4339450b-f2a6-2278-306a-dc91e7a7a78a}</Project>
-      <Name>UniTask.TextMeshPro</Name>
-    </ProjectReference>
-    <ProjectReference Include="UniTask.Addressables.csproj">
-      <Project>{1d7cc6a2-7560-7aa1-53d9-024323fc61cd}</Project>
-      <Name>UniTask.Addressables</Name>
-    </ProjectReference>
     <ProjectReference Include="UniTask.DOTween.csproj">
       <Project>{8b9a10ef-4c92-a56d-f5be-d7299cc21e21}</Project>
       <Name>UniTask.DOTween</Name>
@@ -828,17 +816,29 @@
       <Project>{9ddf830b-2586-e3b9-e33c-fb06e3c403a3}</Project>
       <Name>UniTask.Linq</Name>
     </ProjectReference>
-    <ProjectReference Include="UniTask.csproj">
-      <Project>{b94ddb1f-58c4-e983-a3dc-268d3f74fec3}</Project>
-      <Name>UniTask</Name>
+    <ProjectReference Include="Sirenix.OdinInspector.CompatibilityLayer.csproj">
+      <Project>{df8c50eb-a9af-fdfb-dc41-3ef1952987e2}</Project>
+      <Name>Sirenix.OdinInspector.CompatibilityLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="UniRx.csproj">
+      <Project>{14299ced-2bde-3c00-0016-7a49c9c30116}</Project>
+      <Name>UniRx</Name>
+    </ProjectReference>
+    <ProjectReference Include="UniTask.TextMeshPro.csproj">
+      <Project>{4339450b-f2a6-2278-306a-dc91e7a7a78a}</Project>
+      <Name>UniTask.TextMeshPro</Name>
     </ProjectReference>
     <ProjectReference Include="Sirenix.OdinInspector.CompatibilityLayer.Editor.csproj">
       <Project>{6ea04267-f3ef-cd5a-1153-5f7abb36808b}</Project>
       <Name>Sirenix.OdinInspector.CompatibilityLayer.Editor</Name>
     </ProjectReference>
-    <ProjectReference Include="Sirenix.OdinInspector.CompatibilityLayer.csproj">
-      <Project>{df8c50eb-a9af-fdfb-dc41-3ef1952987e2}</Project>
-      <Name>Sirenix.OdinInspector.CompatibilityLayer</Name>
+    <ProjectReference Include="UniTask.csproj">
+      <Project>{b94ddb1f-58c4-e983-a3dc-268d3f74fec3}</Project>
+      <Name>UniTask</Name>
+    </ProjectReference>
+    <ProjectReference Include="UniTask.Addressables.csproj">
+      <Project>{1d7cc6a2-7560-7aa1-53d9-024323fc61cd}</Project>
+      <Name>UniTask.Addressables</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
