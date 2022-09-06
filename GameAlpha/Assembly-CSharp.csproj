@@ -52,6 +52,10 @@
      <Compile Include="Assets/Demigiant/DOTween/Modules/DOTweenModuleSprite.cs" />
      <Compile Include="Assets/Demigiant/DOTween/Modules/DOTweenModuleUI.cs" />
      <Compile Include="Assets/Demigiant/DOTween/Modules/DOTweenModuleAudio.cs" />
+     <Compile Include="Assets/NewBehaviourScript.cs" />
+     <Compile Include="Assets/Scripts/CommonTools/RandomSelf.cs" />
+     <Compile Include="Assets/Scripts/Test/MonoTest.cs" />
+     <Compile Include="Assets/Scripts/Extends/NetExtends/ListExtends.cs" />
      <None Include="Assets/Demigiant/readme_DOTweenPro.txt" />
      <None Include="Assets/Demigiant/DOTweenPro/readme.txt" />
      <None Include="Assets/Demigiant/DemiLib/Core/DemiLib.xml" />
