@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniTask.TextMeshPro", "UniT
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniTask.Addressables", "UniTask.Addressables.csproj", "{1d7cc6a2-7560-7aa1-53d9-024323fc61cd}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor-firstpass", "Assembly-CSharp-Editor-firstpass.csproj", "{1601df11-87c8-b6a5-cf0a-ce81bf662484}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sirenix.OdinInspector.CompatibilityLayer.Editor", "Sirenix.OdinInspector.CompatibilityLayer.Editor.csproj", "{6ea04267-f3ef-cd5a-1153-5f7abb36808b}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniTask.Editor", "UniTask.Editor.csproj", "{b54390a1-c412-22dd-dc2e-f865a06f27dc}"
@@ -58,6 +60,8 @@ Global
 		{4339450b-f2a6-2278-306a-dc91e7a7a78a}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1d7cc6a2-7560-7aa1-53d9-024323fc61cd}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{1d7cc6a2-7560-7aa1-53d9-024323fc61cd}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1601df11-87c8-b6a5-cf0a-ce81bf662484}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1601df11-87c8-b6a5-cf0a-ce81bf662484}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6ea04267-f3ef-cd5a-1153-5f7abb36808b}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{6ea04267-f3ef-cd5a-1153-5f7abb36808b}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{b54390a1-c412-22dd-dc2e-f865a06f27dc}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
